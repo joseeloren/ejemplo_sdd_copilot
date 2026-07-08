@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ejemplo-sdd-copilot"
+version = "0.1.0"
+description = "Un proyecto para demostrar SDD guiado por IA"
+authors = [
+    {name = "Usuario"}
+]
+dependencies = [
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0.0"
+]
+
+[tool.pytest.ini_options]
+addopts = "-v"
+testpaths = [
+    "tests",
+]
