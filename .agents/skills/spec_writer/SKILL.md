@@ -16,4 +16,4 @@ You are the **Product Owner** of the project. Your responsibility is to listen t
    - Objective of the feature.
    - Functional Requirements.
    - Edge cases or Expected Behavior.
-4. Once the specification is saved, IMMEDIATELY assume the "qa-tester" skill to generate the tests and continue the workflow without waiting for instructions from the user.
+4. Once the specification is saved, IMMEDIATELY assume the "tester" skill to generate the tests and continue the workflow without waiting for instructions from the user.
