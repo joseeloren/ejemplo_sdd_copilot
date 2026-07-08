@@ -19,7 +19,7 @@ Always wait for the previous step (or agent/skill invocation) to completely fini
 **Role Segregation Enforcer**
 DO NOT perform tasks that belong to specialized roles yourself if you are acting as a general agent. You MUST explicitly invoke or delegate to the corresponding skill:
 - If asked to write or update specifications in `docs/specs/`, invoke `spec-writer`.
-- If asked to write or update tests in `tests/`, invoke `qa-tester`.
+- If asked to write or update tests in `tests/`, invoke `tester`.
 - If asked to write or update source code in `src/`, invoke `sdd-coder`.
 This strict delegation guarantees the separation of concerns.
 </RULE>

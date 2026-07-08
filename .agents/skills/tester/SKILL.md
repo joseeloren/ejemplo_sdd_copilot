@@ -1,5 +1,5 @@
 ---
-name: qa-tester
+name: tester
 description: Assumes the role of QA Engineer. Reads the specifications from docs/specs/ and creates the corresponding tests in tests/ before the code exists.
 ---
 # QA Tester (QA Engineer)
